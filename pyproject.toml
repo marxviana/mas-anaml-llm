@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-mas"
+version = "0.1.0"
+description = "Engenharia de Software de Sistemas Multiagentes com LLMs: agentes MAPE-K, normas adaptativas (ANA-ML 2.0 / JSAN+AN) e simulação de gestão de projetos."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Marx Viana" }]
+dependencies = []
+
+[project.optional-dependencies]
+llm = ["anthropic"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+llm-mas = "llm_mas.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

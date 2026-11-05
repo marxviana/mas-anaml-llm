@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+*.json.out
+.env
+# só os resultados usados no artigo vão para o repositório
+results/*
+!results/v3/
+!results/phase2-offline/
+!results/phase2-llm/
+!results/phase2-llm-s2p1/
+.claude/

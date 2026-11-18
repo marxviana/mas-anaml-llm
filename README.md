@@ -1,5 +1,10 @@
 # mas-anaml-llm — Sistemas Multiagentes normativos com LLMs
 
+> **Repositórios por artigo**
+> * Este repositório: artigo de workshop *"Trustworthy LLM Agent Autonomy Through Normative Governance: Norm Deviation versus Norm Adaptation"* (Estudo 2).
+> * [marxviana/mas-llm-studies](https://github.com/marxviana/mas-llm-studies): artigo *"Do Large Language Models Improve Adaptive Normative Agents? Norm Adaptation and Norm Compliance in Paired Simulations"* (Estudos 1–3).
+> * [marxviana/anaml3-metamodel](https://github.com/marxviana/anaml3-metamodel): artigo *"ANA-ML 3.0: An Evidence-Driven Metamodel for Adaptive Normative Multi-Agent Systems with Large Language Models, Institutions and Open Populations"*.
+
 Pacote Python `llm-mas` (comando `llm-mas`).
 
 Implementação em Python do projeto **"Engenharia de Software de Sistemas Multiagentes
